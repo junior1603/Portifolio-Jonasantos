@@ -1,0 +1,345 @@
+/*início*/
+
+.hero-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../assets/001.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+
+    header{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+    }
+    
+    h1 {
+        font-family: 'oswald', sans-serif;
+        color: $primary-normal;
+        font-size: 60px;
+    
+    }
+    
+    nav{
+        width: 50%;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        width: 700px;
+    }
+    
+    li {
+        font-family: 'oswald', sans-serif;
+        font-size: 21px;
+        color: $primary-normal;
+        cursor: pointer;
+    }
+    
+    li:hover {
+        color: $primary-light;
+    
+    }
+
+}
+
+.arrows {
+    width: 60px;
+    height: 172px;
+    bottom: 20px;
+}
+
+.arrows path {
+    stroke: $primary-normal;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+    animation-delay:  -1s;
+    -webkit-animation-delay:  -1s;
+}
+
+.arrows path.a2 {
+    animation-delay:  -0.5s;
+    -webkit-animation-delay:  -0.5s;
+}
+
+.arrows path.a3 {
+    animation-delay:  0s;
+    -webkit-animation-delay:  0s;
+}
+
+/* apresentação */
+
+.content-container {
+    height: 100vh;
+    background-color: $primary-dark;
+}
+
+.profile-container {
+    color: $primary-dark;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/sep09.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+
+.profile-content {
+  width: 49%;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 640px;
+    background: $primary-light;
+    margin-bottom: 50px;
+    height: 340px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid $black-dark;
+}
+
+.name-text {
+    font-family: 'oswald', sans-serif;
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+.profile-text {
+    font-family: 'oswald', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.social-media{
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+.profile-button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.profile-button:hover{
+  transform: scale(1.2);
+}
+
+#facebook{
+    background-image: url(../assets/facebook.png);
+    background-size: cover;
+  }
+  #instagram{
+    background-image: url(../assets/instagram.png);
+    background-size: cover;
+  }
+  #linkedin{
+    background-image: url(../assets/linkedin.png);
+    background-size: cover;
+  }
+  #github{
+    background-image: url(../assets/github2.png);
+    background-size: cover;
+  }
+
+.divider {
+    width: 100%;
+    border-top: .5px solid $primary-normal;
+    margin: 20px 0;
+
+}
+
+.icons-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.icon-item {
+    width: 50px;
+    height: auto;
+}
+
+/* projetos */
+
+.project-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/projectbg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects-description{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: $primary-normal;
+  }
+  .slider{
+    width: 1024px;
+    height: 576px;
+    overflow: hidden;
+    border-radius: 015px;
+    margin-top: 40px;
+  }
+  .slider:hover{
+    cursor: pointer;
+  }
+  .slides-img{
+    width: 5120px;
+    display: flex;
+  }
+  .projects-img img{
+    width: 1024px;
+    height: 576px;
+    transition: transform 1s ease-in-out;
+  }
+  .slides-btn{
+    color: $primary-light;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.7em;
+    margin-top: -5px;
+    transition: 0.5s;
+
+  }
+  .slides-btn:hover{
+    transform: scale(1.5);
+  }
+
+  .btn-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+  }
+
+    /* contatos */
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+        height: 600px;
+        padding: 20px;
+       
+        
+    }
+    
+    label {
+        display: block;
+    }
+    
+    input {
+        display: block;
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    textarea {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height: 300px;
+        min-height: 300px;
+        max-height: 300px;
+        border-radius: 8px;
+    }
+    
+    button {
+        width: 100%;
+        border: none;
+        background: $primary-normal;
+        color: $primary-dark;
+        border-radius: 8px;
+        padding: 8px 12px;
+    }
+    
+}
+
+.fundo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  
+  }
