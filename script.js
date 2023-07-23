@@ -4,7 +4,7 @@ for (let numero = 0; numero < 100; numero++) {
 
 //Slider de projetos
 const slider = document.querySelector('.slider');
-const slides = document.querySelectorAll('.projects-img');
+const slides = document.querySelectorAll('.projetos1');
 const prevBtn = document.querySelector('#btn-back');
 const nextBtn = document.querySelector('#btn-next');
 let slideIndex = 0;
