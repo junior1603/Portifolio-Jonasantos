@@ -10,13 +10,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("assets/001.jpg");
   justify-content: space-between;
-  background-image: url("../assets/001.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 10px;
 }
 .hero-container h1 {
   font-family: "oswald", sans-serif;
@@ -119,7 +118,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("./assets/sep09.jpg");
+  background-image: url("assets/sep09.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -186,22 +185,22 @@
 }
 
 #facebook {
-  background-image: url("./assets/facebook.png");
+  background-image: url("assets/facebook.png");
   background-size: cover;
 }
 
 #instagram {
-  background-image: url("./assets/instagram.png");
+  background-image: url("assets/instagram.png");
   background-size: cover;
 }
 
 #linkedin {
-  background-image: url("./assets/linkedin.png");
+  background-image: url("assets/linkedin.png");
   background-size: cover;
 }
 
 #github {
-  background-image: url("./assets/github2.png");
+  background-image: url("assets/github2.png");
   background-size: cover;
 }
 
@@ -230,7 +229,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./assets/projectbg.jpg");
+  background-image: url("assets/projectbg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
