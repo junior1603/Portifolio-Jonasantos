@@ -186,22 +186,22 @@
 }
 
 #facebook {
-  background-image: url(../assets/facebook.png);
+  background-image: url("../assets/facebook.png");
   background-size: cover;
 }
 
 #instagram {
-  background-image: url(../assets/instagram.png);
+  background-image: url("../assets/instagram.png");
   background-size: cover;
 }
 
 #linkedin {
-  background-image: url(../assets/linkedin.png);
+  background-image: url("../assets/linkedin.png");
   background-size: cover;
 }
 
 #github {
-  background-image: url(../assets/github2.png);
+  background-image: url("../assets/github2.png");
   background-size: cover;
 }
 
