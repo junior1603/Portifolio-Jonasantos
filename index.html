@@ -1,285 +1,288 @@
 <!DOCTYPE html>
-<html lang="ptbr">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfólio</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./unpkg.com_swiper@8.1.6_swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <section class="hero-container" id="index">
+    <header>
+      <nav>
+        <ul class="nav-menu">
+          <a class="list-item" href="#index"><li>Início</li></a>
+          <a class="list-item" href="#profile"><li>Apresentação</li></a>
+          <a class="list-item" href="#projects"><li>Projetos</li></a>
+        </ul>
+      </nav>
+      <div class="menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+    <h1>Procurando um desenvolvedor Front Stack?</h1>
+    <svg class="arrows">
+      <path class="a1" d="M0 0 L30 32 L60 0"></path>
+      <path class="a2" d="M0 20 L30 52 L60 20"></path>
+      <path class="a3" d="M0 40 L30 72 L60 40"></path>
+    </svg>
+  </section>
 
-    <!--HEADER-->
+ <!--apresentação--> 
 
-    <section class="hero-container" id="index">
-        <header>
-          <nav>
-            <ul class="nav-menu">
-              <a class="list-item" href="#index"><li>Início</li></a>
-              <a class="list-item" href="#profile"><li>Apresentação</li></a>
-              <a class="list-item" href="#projects"><li>Projetos</li></a>
-              <a class="list-item" href="#contact"><li>Contato</li></a>
-            </ul>
-          </nav>
-
-          <div class="menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+  <section class="content-container" id="profile">
+    <div class="profile-container">
+      <div class="profile-content">
+        <div class="profile-card">
+          <img class="profile-image" src="./assets/jjDSC01773 copiar.jpg"/>
+          <span class="name-text">Jonasantos</span>
+          <span class="profile-text">“Nós estamos presos à tecnologia quando o que nós mais queremos é algo que apenas funcione.</span>
+          <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100061764736793" target="_blank">
+              <button class="profile-button" id="facebook"></button>
+            </a>
+            <a href="https://www.instagram.com/jonasantos5240/" target="_blank">
+              <button class="profile-button" id="instagram"></button>
+            </a>
+            <a href="https://www.linkedin.com/in/jonas-santos-167129267/" target="_blank">
+              <button class="profile-button" id="linkedin"></button>
+            </a>
+            <a href="https://github.com/junior1603" target="_blank">
+              <button class="profile-button" id="github"></button>
+            </a>
           </div>
-        </header>
-
-        
-        
-        <h1>Procurando um desenvolvedor Full Stack?</h1>
-        <svg class="arrows">
-          <path class="a1" d="M0 0 L30 32 L60 0"></path>
-          <path class="a2" d="M0 20 L30 52 L60 20"></path>
-          <path class="a3" d="M0 40 L30 72 L60 40"></path>
-        </svg>
-    </section>
-
-      <!--apresentação-->
-
-    <section class="content-container" id="profile">
-            <div class="profile-container">
-                <div class="profile-content">
-                    <div class="profile-card">
-                        <img class="profile-image" src="./assets/jjDSC01773 copiar.jpg"/>
-                        <span class="name-text">Jonasantos</span>
-                        <span class="profile-text">
-                            Nós estamos presos à tecnologia quando o que nós mais queremos é algo que apenas funcione.
-                        </span>
-                        <div class="social-media">
-                            <a href="https://www.facebook.com/profile.php?id=100061764736793" target="_blank">
-                            <button class="profile-button" id="facebook"></button>
-                            </a>
-                            <a href="https://www.instagram.com/jonasantos5240/" target="_blank">
-                            <button class="profile-button" id="instagram"></button>
-                            </a>
-                            <a href="https://www.linkedin.com/in/jonas-santos-167129267/" target="_blank">
-                            <button class="profile-button" id="linkedin"></button>
-                            </a>
-                            <a href="https://github.com/junior1603" target="_blank">
-                            <button class="profile-button" id="github"></button>
-                            </a>
-                        </div>
-                        <div class="divider"></div>
-                        <div class="icons-container">
-                            <img class="icon-item" src="./assets/javascript-logo-1.png"/>
-                            <img class="icon-item" src="./assets/logo-html-5-512.png"/>
-                            <img class="icon-item" src="./assets/logo-css-3-512.png"/>
-                            <img class="icon-item" src="./assets/pngegg.png"/>
-                            <img class="icon-item" src="./assets/logo-react-512.png"/>
-                            <img class="icon-item" src="./assets/node-js-scalable-vector-graphics-javascript-clip-a-31-best-node-js-logo-5b67dacf9f8bc7.0306409615335328796535.jpg"/>
-                        </div>
-                    </div>    
-                </div>
+          <div class="divider"></div>
+          <div class="tecnologies-container">
+            <div class="tecnologies-content">
+              <div class="tecnologies" id="html"></div>
+              <div class="tecnologies" id="css"></div>
+              <div class="tecnologies" id="java-script"></div>
             </div>
-        </section>
+            <div class="tecnologies-content">
+              <div class="tecnologies" id="react"></div>
+              <div class="tecnologies" id="git"> </div>
+              <div class="tecnologies" id="github2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile-sinopse">
+        
+        <br>
+        <p>Olá! Meu nome é Jonas Santos, Estou estudando no Profição programador e 
+          quero Muito em breve estar trabalhando nesta área magnífica cheia de 
+          desafios e oportunidades, Amo estudar e estar sempre aprendendo algo novo.
+          Sou muito curioso para entender algo e não desisto até entender.
+
+        </p> 
+      </div>
+    </div>
 
         <!--projetos-->
 
-        <section class="content-container" id="projects">
-            <div class="project-container">
-                <div class="slider">
-                    <div class="slides-img">
-                        <div class="projetos1">
-                            <div class="projetos2">
-                                <div class="site">
-                                    <a href="https://junior1603.github.io/Portifolio-Jonasantos/" target="_blank">
-                                        <div class="projects-img" id="current-img">
-                                            <img src="./assets/projeto-portfolio.png" alt="imagem do projeto">
-                                        </div>
-                                    </a>
-                                    
-                                </div>
-                                <div class="tecnologias">
-                                    <img class="icon-item" src="./assets/javascript-logo-1.png"/>
-                                    <img class="icon-item" src="./assets/logo-html-5-512.png"/>
-                                    <img class="icon-item" src="./assets/logo-css-3-512.png"/>
-                                    <img class="icon-item" src="./assets/pngegg.png"/>
-                                </div>
-                                <div class="descriçao">
-                                    <h1>PORTIFÓLIO</h1>
-                                    <p>Meu Portifólio.</p>
-                                </div>
-                                <div class="github">
-                                    <a href="https://github.com/junior1603/Portifolio-Jonasantos" target="_blank">GitHub</a>
-                                </div>
-                            </div>
+  </section>
 
-                            <div class="projetos2">
-                                <div class="site">
-                                    <a href="https://junior1603.github.io/barber/" target="_blank">
-                                        <div class="projects-img" id="current-img">
-                                            <img src="./assets/projeto-barbearia copiar.png" alt="imagem do projeto">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="tecnologias">
-                                    <img class="icon-item" src="./assets/javascript-logo-1.png"/>
-                                    <img class="icon-item" src="./assets/logo-html-5-512.png"/>
-                                    <img class="icon-item" src="./assets/logo-css-3-512.png"/>
-                                    <img class="icon-item" src="./assets/pngegg.png"/>
-                                </div>
-                                <div class="descriçao">
-                                    <h1>BARBEARIA</h1>
-                                    <P>Landing page para barbearia.</P>
-                                </div>
-                                <div class="github">
-                                    <a href="https://github.com/junior1603/barber" target="_blank">GitHub</a>
-                                </div>
-                            </div>
+  <section class="project-container" id="projects">
+                
+    <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
 
-                            <div class="projetos2">
-                                <div class="site">
-                                    <a href="https://junior1603.github.io/Star-Wars-Characters/" target="_blank">
-                                        <div class="projects-img">
-                                            <img src="./assets/projeto-Star-Wars copiar.png" alt="imagem do projeto">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="tecnologias">
-                                    
-                                </div>
-                                <div class="descriçao">
-                                    <h1>STAR WARS</h1>
-                                    <p>Saite para quem quer conhecer os personagens de Star Wars.</p>
-                                </div>
-                                <div class="github">
-                                    <a href="https://github.com/junior1603/Star-Wars-Characters" target="_blank">GitHub</a>
-                                </div>
+                <!--portifólio-->
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <a href="https://junior1603.github.io/Portifolio-Jonasantos/" target="_blank">
+                            <div class="card-image">
+                                <img src="assets/projeto-portfolio.png" alt="" class="card-img">
                             </div>
+                        </a>
+                    </div>
+                    <div class="tecnologi">
+                        <div class="tec">
+                            <img src="./assets/javascript-logo-1.png" alt="">
+                            <img src="./assets/logo-html-5-512.png" alt="">
+                            <img src="./assets//logo-css-3-512.png" alt="">
+                            <img src="./assets/pngegg.png" alt="">
                         </div>
-
-                        <div class="projetos1">
-                            <div class="projetos2">
-                                <div class="site">
-                                    <a href="https://junior1603.github.io/criador-de-senhas/" target="_blank">
-                                        <div class="projects-img" id="current-img">
-                                            <img src="./assets/projeto-criador-senhas.png" alt="imagem do projeto">
-                                        </div>
-                                    </a>
-                                    
-                                </div>
-                                <div class="tecnologias">
-                                    <img class="icon-item" src="./assets/javascript-logo-1.png"/>
-                                    <img class="icon-item" src="./assets/logo-html-5-512.png"/>
-                                    <img class="icon-item" src="./assets/logo-css-3-512.png"/>
-                                </div>
-                                <div class="descriçao">
-                                    <h1>CRIADOR DE SENHAS</h1>
-                                    <p>Crie sua senha, Rapido e facil.</p>
-                                </div>
-                                <div class="github">
-                                    <a href="https://github.com/junior1603/criador-de-senhas" target="_blank">GitHub</a>
-                                </div>
-                            </div>
-
-                            <div class="projetos2">
-                                <div class="site">
-                                    <a href="https://junior1603.github.io/barber/" target="_blank">
-                                        <div class="projects-img" id="current-img">
-                                            <img src="./assets/projeto-barbearia copiar.png" alt="imagem do projeto">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="tecnologias">
-                                    <img class="icon-item" src="./assets/javascript-logo-1.png"/>
-                                    <img class="icon-item" src="./assets/logo-html-5-512.png"/>
-                                    <img class="icon-item" src="./assets/logo-css-3-512.png"/>
-                                    <img class="icon-item" src="./assets/pngegg.png"/>
-                                </div>
-                                <div class="descriçao">
-                                    <h1>BARBEARIA</h1>
-                                    <P>Landing page para barbearia.</P>
-                                </div>
-                                <div class="github">
-                                    <a href="https://github.com/junior1603/barber" target="_blank">GitHub</a>
-                                </div>
-                            </div>
-
-                            <div class="projetos2">
-                                <div class="site">
-                                    <a href="https://junior1603.github.io/Star-Wars-Characters/" target="_blank">
-                                        <div class="projects-img">
-                                            <img src="./assets/projeto-Star-Wars copiar.png" alt="imagem do projeto">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="tecnologias">
-                                    
-                                </div>
-                                <div class="descriçao">
-                                    <h1>STAR WARS</h1>
-                                    <p>Saite para quem quer conhecer os personagens de Star Wars.</p>
-                                </div>
-                                <div class="github">
-                                    <a href="https://github.com/junior1603/Star-Wars-Characters" target="_blank">GitHub</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                            
-                            
-                        
-            
-                    
-                        
-                    
-                        
-                        
-
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">PORTIFÓLIO</h2>
+                        <P class="description">Ola! Meu nome é Jonas Santos, Estou estudando no Profição programador e quero Muito em breve estar trabalhando nesta área magnífica cheia de desafios e oportunidades, Amo estudar e estar sempre aprendendo algo novo.</P>
+                        <a href="https://github.com/junior1603/Portifolio-Jonasantos" target="_blank">
+                            <button class="button">Github</button>
+                        </a>
                     </div>
                 </div>
-                <div class="btn-container">
-                    <div class="slides-btn" id="btn-back">
-                      <i class="fas fa-chevron-left"></i>
+
+                <!--barbearia-->
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <a href="https://junior1603.github.io/barber/" target="_blank">
+                            <div class="card-image">
+                                <img src="assets/projeto-barbearia copiar.png" alt="" class="card-img">
+                            </div>
+                        </a>
                     </div>
-                    <div class="slides-btn" id="btn-next">
-                      <i class="fas fa-chevron-right"></i>
+                    <div class="tecnologi">
+                        <div class="tec">
+                            <img src="./assets/javascript-logo-1.png" alt="">
+                            <img src="./assets/logo-html-5-512.png" alt="">
+                            <img src="./assets//logo-css-3-512.png" alt="">
+                            <img src="./assets/pngegg.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">BARBEARIA</h2>
+                        <P class="description">Velit irure magna occaecat incididunt cillum qui in commodo mollit sit sunt ut ad ullamco.Sunt sint laborum elit sint ea proident officia tempor culpa.Aliquip et aliquip in cupidatat do labore ad labore voluptate enim.</P>
+                        <a href="https://github.com/junior1603/barber" target="_blank">
+                            <button class="button">Github</button>
+                        </a>
                     </div>
                 </div>
-                
+
+                <!--star wars-->
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <a href="https://junior1603.github.io/Star-Wars-Characters/" target="_blank">
+                            <div class="card-image">
+                                <img src="assets/projeto-Star-Wars copiar.png" alt="" class="card-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tecnologi">
+                        <div class="tec">
+                            <img src="./assets/javascript-logo-1.png" alt="">
+                            <img src="./assets/logo-html-5-512.png" alt="">
+                            <img src="./assets//logo-css-3-512.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">PORTIFÓLIO</h2>
+                        <P class="description">Velit irure magna occaecat incididunt cillum qui in commodo mollit sit sunt ut ad ullamco.Sunt sint laborum elit sint ea proident officia tempor culpa.Aliquip et aliquip in cupidatat do labore ad labore voluptate enim.</P>
+                        <a href="https://github.com/junior1603/Star-Wars-Characters" target="_blank">
+                            <button class="button">Github</button>
+                        </a>
+                    </div>
+                </div>
+
+                <!--gerador de senhas-->
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <a href="https://junior1603.github.io/criador-de-senhas/" target="_blank">
+                            <div class="card-image">
+                                <img src="assets/projeto-criador-senhas.png" alt="" class="card-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tecnologi">
+                        <div class="tec">
+                            <img src="./assets/javascript-logo-1.png" alt="">
+                            <img src="./assets/logo-html-5-512.png" alt="">
+                            <img src="./assets//logo-css-3-512.png" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">PORTIFÓLIO</h2>
+                        <P class="description">Velit irure magna occaecat incididunt cillum qui in commodo mollit sit sunt ut ad ullamco.Sunt sint laborum elit sint ea proident officia tempor culpa.Aliquip et aliquip in cupidatat do labore ad labore voluptate enim.</P>
+                        <a href="https://github.com/junior1603/criador-de-senhas" target="_blank">
+                            <button class="button">Github</button>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <a href="https://junior1603.github.io/Portifolio-Jonasantos/" target="_blank">
+                            <div class="card-image">
+                                <img src="assets/projeto-portfolio.png" alt="" class="card-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tecnologi">
+                        <div class="tec">
+                            <img src="./assets/javascript-logo-1.png" alt="">
+                            <img src="./assets/logo-html-5-512.png" alt="">
+                            <img src="./assets//logo-css-3-512.png" alt="">
+                            <img src="./assets/pngegg.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">PORTIFÓLIO</h2>
+                        <P class="description">Velit irure magna occaecat incididunt cillum qui in commodo mollit sit sunt ut ad ullamco.Sunt sint laborum elit sint ea proident officia tempor culpa.Aliquip et aliquip in cupidatat do labore ad labore voluptate enim.</P>
+                        <a href="https://github.com/junior1603/Portifolio-Jonasantos" target="_blank">
+                            <button class="button">Github</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <a href="https://junior1603.github.io/Portifolio-Jonasantos/" target="_blank">
+                            <div class="card-image">
+                                <img src="assets/projeto-portfolio.png" alt="" class="card-img">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="tecnologi">
+                        <div class="tec">
+                            <img src="./assets/javascript-logo-1.png" alt="">
+                            <img src="./assets/logo-html-5-512.png" alt="">
+                            <img src="./assets//logo-css-3-512.png" alt="">
+                            <img src="./assets/pngegg.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">PORTIFÓLIO</h2>
+                        <P class="description">Velit irure magna occaecat incididunt cillum qui in commodo mollit sit sunt ut ad ullamco.Sunt sint laborum elit sint ea proident officia tempor culpa.Aliquip et aliquip in cupidatat do labore ad labore voluptate enim.</P>
+                        <a href="https://github.com/junior1603/Portifolio-Jonasantos" target="_blank">
+                            <button class="button">Github</button>
+                        </a>
+                    </div>
+                </div>  
             </div>
-        </section>
+        </div>
 
-        <!--contato-->
-  
-        <main id="contact">
-            <canvas class="fundo" id="Matrix"></canvas>
- 
-            <div class="form-container">
-                <form action="https://formspree.io/f/myyakwnp" method="POST"
- 
-                    <label>
-                        <input type="text" name="name" style="display: block;" placeholder="Nome Sobrenome" id="input-name" required>
-                    </label>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+
+    </div>
     
-                    <label>
-                        <input type="email" name="email" style="display: block;" placeholder="exemplo@email.com" id="input-email" required>
-                    </label>
-                    
-                    <label>
-                        <input type="tel" name="fone" id="input-fone" style="display: block;" placeholder="(11) 98888-8888" minlength="15" maxlength="15">
-                    </label>
-                    
-                    <label>
-                        <textarea name="message"></textarea>
-                    </label>
+        
     
-                    <button type="submit">Enviar</button>
-               
-                </form>
-            </div>
-        </main>
-        <script type="text/javascript" src="./script.js"></script>
-
-
-
-                
-
     
-    </body>
+</section>
+
+  <!--button whatsapp-->
+
+  <a href="https://api.whatsapp.com/send?phone=37988289835&text=Quero%20fazer%20um%20agendamento" 
+  class="btn-whatsapp" 
+  target="_blank"
+  data-aos="zoom-in-up" data-aos-delay="400">
+      <img src="assets/whatssapp.svg" alt="botao whatsapp">
+      <span class="tooltip-text">Responderei assim que possivel</span>
+  </a>
+</body>
+  <script src="./script.js"></script>
+  <script src="./js/unpkg.com_swiper@8.1.6_swiper-bundle.min.js"></script>
+  <script src="./js/scrip.js"></script>
 </html>
