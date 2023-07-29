@@ -444,6 +444,11 @@ li:hover{
         display: none;
     }
 }
+@media screen and (max-width: 650px) {
+    .card-image {
+      width: 220px;
+    }
+  }
 
 
 
@@ -633,6 +638,9 @@ li:hover{
     margin: 0;
     width: 410px;
     margin-bottom: 15px;
+  }
+  .card-image {
+    width: 213px;
   }
 } 
 
