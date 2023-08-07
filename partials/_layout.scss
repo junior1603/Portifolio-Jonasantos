@@ -310,6 +310,11 @@ li:hover{
     width: 100%;
     
     padding: 40px 0;
+
+    span {
+      color: #fff;
+      margin-left: 390px;
+    }
 }
 
 .slide-content{
@@ -433,6 +438,7 @@ li:hover{
 .swiper-pagination-bullet{
     background-color: #6e93f7;
     opacity: 1;
+    
 }
 .swiper-pagination-bullet-active{
     background-color: #4070f4;

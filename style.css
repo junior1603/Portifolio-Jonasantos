@@ -338,6 +338,10 @@ li:hover {
   width: 100%;
   padding: 40px 0;
 }
+.slide-container span {
+  color: #fff;
+  margin-left: 390px;
+}
 
 .slide-content {
   overflow: hidden;
