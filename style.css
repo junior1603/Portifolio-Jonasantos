@@ -251,36 +251,8 @@ li:hover {
   width: 20%;
   height: 100%;
 }
-
-#html {
-  background-image: url("assets/logo-html-5-512.png");
-  background-size: cover;
-}
-
-#css {
-  background-image: url("assets/logo-css-3-512.png");
-  background-size: cover;
-}
-
-#java-script {
-  background-image: url("assets/javascript-logo-1.png");
-  background-size: cover;
-}
-
-#git {
-  background-image: url("assets/pngegg.png");
-  background-size: cover;
-}
-
-#react {
-  background-image: url("assets/logo-react-512.png");
-  background-size: cover;
-}
-
-#github2 {
-  background-image: url("assets/node-js.jpg");
-  background-size: cover;
-  background-position-y: 50%;
+.tecnologies img {
+  width: 50px;
 }
 
 .profile-sinopse {
@@ -367,7 +339,6 @@ li:hover {
 }
 
 .overlay {
-  position: absolute;
   left: 0;
   top: 0;
   height: 100%;
@@ -398,17 +369,17 @@ li:hover {
   padding: 3px;
 }
 
-.card-image:hover {
-  transition: 1s;
-  transform: scale(1.1, 1.1);
-}
-
-.card-image .card-img {
+.card-img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border: 4px solid #fff;
+}
+
+.card-img:hover {
+  transition: 1s;
+  transform: scale(1.1);
 }
 
 .name {
